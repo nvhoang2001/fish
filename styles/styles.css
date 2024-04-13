@@ -167,6 +167,10 @@
   margin-bottom: 1.25rem;
 }
 
+.tw-mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .tw-mb-8 {
   margin-bottom: 2rem;
 }
@@ -257,6 +261,10 @@
   height: 117px;
 }
 
+.tw-h-\[15px\] {
+  height: 15px;
+}
+
 .tw-h-\[176px\] {
   height: 176px;
 }
@@ -271,6 +279,10 @@
 
 .tw-h-\[27px\] {
   height: 27px;
+}
+
+.tw-h-\[30px\] {
+  height: 30px;
 }
 
 .tw-h-\[474px\] {
@@ -295,6 +307,10 @@
 
 .tw-w-4 {
   width: 1rem;
+}
+
+.tw-w-\[15px\] {
+  width: 15px;
 }
 
 .tw-w-\[27px\] {
@@ -392,6 +408,10 @@
   gap: 3px;
 }
 
+.tw-gap-\[5px\] {
+  gap: 5px;
+}
+
 .tw-gap-y-5 {
   row-gap: 1.25rem;
 }
@@ -433,6 +453,11 @@
 .tw-bg-\[\#F15A23\] {
   --tw-bg-opacity: 1;
   background-color: rgb(241 90 35 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#F2F2F2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 242 242 / var(--tw-bg-opacity));
 }
 
 .tw-bg-transparent {
@@ -512,12 +537,24 @@
   padding-left: 0.5rem;
 }
 
+.tw-pl-4 {
+  padding-left: 1rem;
+}
+
 .tw-pl-6 {
   padding-left: 1.5rem;
 }
 
+.tw-pl-\[13px\] {
+  padding-left: 13px;
+}
+
 .tw-pl-\[9px\] {
   padding-left: 9px;
+}
+
+.tw-pr-7 {
+  padding-right: 1.75rem;
 }
 
 .tw-pr-\[11px\] {
@@ -798,6 +835,14 @@ body {
 
   .xl\:tw-justify-start {
     justify-content: flex-start;
+  }
+
+  .xl\:tw-gap-2 {
+    gap: 0.5rem;
+  }
+
+  .xl\:tw-gap-2\.5 {
+    gap: 0.625rem;
   }
 
   .xl\:tw-gap-y-7 {
