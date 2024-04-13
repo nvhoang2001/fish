@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	font-family: "Inter", sans-serif;
+}
+
+.search-box {
+	box-shadow: 0px 6px 30px 0px #00000021;
+}
+
+.main-title-gradient-layer {
+	@apply tw-bg-center tw-bg-cover tw-rounded-[10px];
+
+	background-image: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0) 0%,
+			rgba(0, 0, 0, 0) 0.01%,
+			rgba(0, 0, 0, 0.0626133) 53.72%,
+			rgba(0, 0, 0, 0.8) 100%
+		),
+		var(--bg-img-url);
+
+	transform: scale(-1, 1);
+
+	&.no-scale {
+		transform: none;
+	}
+}
+
+.sub-title-caption {
+	@apply tw-w-full;
+
+	@media (min-width: 1280px) {
+		width: calc((100% - 2 * 23px) / 3);
+	}
+
+	&.caption2 {
+		width: calc((100% - 10px) / 2);
+	}
+}
+
+.custom-shadow-2 {
+	box-shadow: 25px 15px 35px 0px #00000059;
+}
